@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
+}
+@font-face {
+    font-family: 'Inter Bold Italic';
+    src: url(./fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
+}
+* {
+    font-family: 'Inter', 'Inter Bold Italic';
+    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
+    src: url(./fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
+}
+@media screen and (min-width: 10%) and (max-width: 100%) {
+    body {
+        min-width: 320px;
+        max-width: 2560px;
+    }
+}
+
+.go {
+    position: absolute;
+    top: 24px;
+    left: 25%;
+    width: 10%;
+    height: 35px;
+    border-radius: 50px;
+    border: 5px solid #000;
+    background: #00ADD8;
+}
+.a1 {
+    position: relative;
+    text-align: center;
+    top: 9px;
+    font-family: Inter;
+    src: url(/fonts/Inter\ Extra\ Bold\ 800.otf);
+    color: white; 
+}
+.js {
+    position: absolute;
+    top: 25px;
+    width: 10%;
+    height: 35px;
+    left: 40%;
+    border-radius: 50px;
+    border: 5px solid #000;
+    background: #FADF38;
+}
+.a2 {
+    position: relative;
+    text-align: center;
+    top: 9px;
+    font-family: Inter;
+    src: url(/fonts/Inter\ Extra\ Bold\ 800.otf);
+    color: white;
+}
+
+.c {
+    position: absolute;
+    top: 25px;
+    width: 10%;
+    height: 35px;
+    left: 55%;
+    border-radius: 50px;
+    border: 5px solid #000;
+    background: #37008E;
+}
+.a3 {
+    position: relative;
+    text-align: center;
+    top: 9px;
+    font-family: Inter;
+    src: url(/fonts/Inter\ Extra\ Bold\ 800.otf);
+    color: white;
+}
+
+.py {
+    position: absolute;
+    top: 25px;
+    width: 10%;
+    height: 35px;
+    left: 70%;
+    border-radius: 50px;
+    border: 5px solid #000;
+    background: #3D688C;
+}
+.a4 {
+    position: relative;
+    text-align: center;
+    top: 9px;
+    font-family: Inter;
+    src: url(/fonts/Inter\ Extra\ Bold\ 800.otf);
+    color: white;
+}
+.container{
+    max-width: 2560px;
+    width: 35%;
+    position: relative;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.child-image {
+    position: relative;
+    width: 205px;
+    height: auto;
+    transform: translateY(60%);
+    display: block;
+    left: 70%;
+    border-radius: 150px;
+    border: 10px solid #000;
+
+}
+.child-image2 {
+    position: relative;
+    width: 205px;
+    top: 11px;
+    height: auto;
+    transform: translateY(77.5%);
+    display: block;
+    left: 115%;
+    border-radius: 150px;
+    border: 10px solid #000;
+}
+.child-image3 {
+    position: relative;
+    width: 205px;
+    height: 200px;
+    transform: translateY(-20%);
+    display: block;
+    left: 30%;
+    border-radius: 150px;
+    border: 10px solid #000;
+    object-fit: cover;
+}
+.child-image4 {
+    position: relative;
+    width: 205px;
+    height: 200px;
+    transform: translateY(-365%);
+    display: block;
+    left: 115%;
+    border-radius: 150px;
+    border: 10px solid #000;
+    object-fit: cover;
+}
+button {
+    position: absolute;
+    object-position: center;
+    width: 25%;
+    height: 70px;
+    top: 1340px;
+    left: 39%;
+    border-radius: 256px;
+    background-color: white;
+    border-width: 5px;
+    font-family: 'Inter Bold Italic';
+    src: url(./fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
+}
+h1 {
+    position: relative;
+    width: 50%;
+    color: black;
+    top: 290px;
+    left: -45%;
+    font-family: Inter;
+    -webkit-text-stroke: 2px #ffffff; 
+    stroke: 2px #ffffff;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 800;
+}
+.learn {
+    position: relative;
+    object-position: center;
+    width: 25%;
+    height: 70px;
+    top: 300px;
+    border-radius: 88px;
+    border: 3px solid #000;
+    background: #FFF;
+    text-align: center;
+    left: -44.5%;
+    border-radius: 256px;
+    background-color: white;
+    border-width: 5px;
+}
+.learn:hover {
+    transition-duration: 1s;
+    background-color: rgb(229, 255, 0);
+    border-width: 5px;
+}
+.learn1 {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    top: 20px;
+    font-size: x-large;
+}
+
+

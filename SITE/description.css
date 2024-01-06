@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
+}
+@font-face {
+    font-family: 'Inter Bold Italic';
+    src: url(/fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
+}
+* {
+    font-family: 'Inter', 'Inter Bold Italic';
+    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
+    src: url(./fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
+}
+.text {
+    position: absolute;
+    width: 80%;
+    margin-bottom: 1500px;
+    margin-top: -850px;
+    left: 10%;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.76);
+}
+.bod {
+    background-repeat: no-repeat;
+    width: 100%;
+    left: 0px;
+    height: auto;
+    background-size: cover;
+    top: 0px;
+    position: relative;
+    object-fit: cover;
+}
+.des1 {
+    position: relative;
+    color: #00ADD8;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+}
+.des2 {
+    position: relative;
+    color: #F0DB4F;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+}
+.des3 {
+    position: relative;
+    color: #BB4DDC;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: 19%;
+    width: 100%;
+    text-align: center;
+}
+.des4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: 26%;
+    width: 100%;
+    text-align: center;
+}

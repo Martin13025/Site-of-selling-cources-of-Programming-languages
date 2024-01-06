@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
+}
+@font-face {
+    font-family: 'Inter Bold Italic';
+    src: url(/fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
+}
+* {
+    font-family: 'Inter', 'Inter Bold Italic';
+    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
+    src: url(./fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
+}
+@media screen and (min-width: 320px) and (max-width: 2560px) {
+    .container {
+        min-width: 319px;
+        max-width: 2560px;
+    }
+}
+
+.container {
+    max-width: 100%;
+    height: auto; 
+}
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.price1{
+    position: relative;
+    margin-left: -2%;
+    width: 352px;
+    height: 900px;
+    left: 5%;
+    border-radius: 20px;
+    border: 5px solid #000;
+    background: #F0DB4F;
+    box-shadow: 13px 19px 0px 0px #000;
+}
+.price2 {
+    position: absolute;
+    margin-left: 3%;
+    width: 352px;
+    height: 900px;
+    top: 10px;
+    left: 25%;
+    border-radius: 20px;
+    border: 5px solid #000;
+    background: #00ADD8;
+    box-shadow: 13px 19px 0px 0px #000;
+}
+.price3 {
+    position: absolute;
+    margin-left: 28%;
+    grid-column: span;
+    width: 352px;
+    height: 900px;
+    top: 10px;
+    left: 25%;
+    border-radius: 20px;
+    border: 5px solid #000;
+    background: #3D688C;
+    box-shadow: 13px 19px 0px 0px #000;
+}
+.price4 {
+    position: absolute;
+    margin-left: 53%;
+    grid-column: span;
+    width: 352px;
+    height: 900px;
+    top: 10px;
+    left: 25%;
+    border-radius: 20px;
+    border: 5px solid #000;
+    background: #37008E;
+    box-shadow: 13px 19px 0px 0px #000;
+}
+.js {
+    position: relative;
+    border-radius: 150px;
+    border: 8px solid #000;
+    width: 150px;
+    height: 150px;
+    left: 27%;
+    top: 30px;
+}
+.go {
+    position: relative;
+    border-radius: 150px;
+    border: 8px solid #000;
+    width: 150px;
+    height: 150px;
+    left: 25%;
+    top: 30px;
+}
+.py {
+    position: relative;
+    border-radius: 150px;
+    border: 8px solid #000;
+    width: 150px;
+    height: 150px;
+    left: 25%;
+    top: 30px;
+}
+.c {
+    position: relative;
+    border-radius: 150px;
+    border: 8px solid #000;
+    width: 150px;
+    height: 150px;
+    left: 25%;
+    top: 30px;
+}
+.p1 {
+    position: relative;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 13px 13px 0px 0px #000;
+    background-position: center;
+    top: 15%;
+    left: 11%;
+    width: 272px;
+    height: 25%;
+    line-height:normal;
+    border-radius: 20px;
+    color: #000000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.p2 {
+    position: relative;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 13px 13px 0px 0px #000;
+    top: 14.7%;
+    left: 11%;
+    width: 272px;
+    height: 25%;
+    line-height: normal;
+    border-radius: 20px;
+    color: #000000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.p3 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    top: 14.7%;
+    left: 10%;
+    width: 272px;
+    height: 25%;
+    line-height: normal;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 13px 13px 0px 0px #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.p4 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    top: 14.4%;
+    left: 10%;
+    width: 272px;
+    height: 25%;
+    line-height: normal;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 13px 13px 0px 0px #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.but1 {
+    position: relative;
+    font-size: 35px;
+    width: 274px;
+    height: 105px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 13px 13px 0px 0px #000;
+    cursor: pointer;
+    left: 10%;
+    top: 250px;
+}
+.but2 {
+    position: relative;
+    font-size: 35px;
+    width: 274px;
+    height: 105px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 13px 13px 0px 0px #000;
+    cursor: pointer;
+    left: 10%;
+    top: 245.5px;
+}
+.but3 {
+    position: relative;
+    font-size: 35px;
+    width: 274px;
+    height: 105px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 13px 13px 0px 0px #000;
+    cursor: pointer;
+    left: 10%;
+    top: 244.3px;
+}
+.but4 {
+    position: relative;
+    font-size: 35px;
+    width: 274px;
+    height: 105px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 13px 13px 0px 0px #000;
+    cursor: pointer;
+    left: 10%;
+    top: 244.3px;
+}
+.but1:hover {
+    width: 274px;
+    height: 105px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 13px 13px 0px 0px #000;
+    cursor: pointer;
+    background-color: green;
+    transition-duration: 1s;
+}
+
+.but2:hover {
+    width: 274px;
+    height: 105px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 13px 13px 0px 0px #000;
+    cursor: pointer;
+    background-color: green;
+    transition-duration: 1s;   
+}
+.but3:hover {
+    width: 274px;
+    height: 105px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 13px 13px 0px 0px #000;
+    cursor: pointer;
+    background-color: green;
+    transition-duration: 1s;   
+}
+.but4:hover {
+    width: 274px;
+    height: 105px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 13px 13px 0px 0px #000;
+    cursor: pointer;
+    background-color: green;
+    transition-duration: 1s;   
+}

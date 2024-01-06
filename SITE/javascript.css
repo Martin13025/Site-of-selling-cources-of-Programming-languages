@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
+}
+@font-face {
+    font-family: 'Inter Bold Italic';
+    src: url(/fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
+}
+* {
+    font-family: 'Inter', 'Inter Bold Italic';
+    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
+    src: url(./fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
+}
+
+
+.container {
+    background-image: url(./images/js_evolution_b3333c24cb.jpeg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto; 
+    background-size: cover;
+}
+.wall {
+    background-color: rgba(255, 238, 0, 0.356);
+    max-width: 100%;
+    height: auto; 
+    background-size: cover;
+    border-radius: 20px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.head {
+    width: 35%;
+    color: #FFF;
+    font-family: Inter;
+    src: url(/fonts/Inter\ Extra\ Bold\ 800.otf);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.js {
+    position: relative;
+    border-radius: 150px;
+    justify-content: center;
+    border: 10px solid #FFF;
+    /*width: 250px;
+    height: 250px; */
+    left: 85%;
+    top: -180px;
+    max-width: 35%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    position: absolute;
+    max-width: 35%;
+    height: auto;
+    border-radius: 50px;
+    background: #FFF;
+    background-size: 30%;
+    color: black;
+    font-family: Inter;
+    font-size: 45px;
+    border: 5px solid #000;
+    line-height: normal;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -350px;
+    left: 75%;
+}
+a {
+    font-size: 35px;
+    width: 300px;
+    height: 62px;
+    position: relative;
+    top: 20%;
+}
