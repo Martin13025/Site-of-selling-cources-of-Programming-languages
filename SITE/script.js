@@ -30,7 +30,8 @@ function  change2() {
     } else {
         document.getElementById('child-image4').style.borderColor = 'black'
     }
-/*СДЕЛАТЬ СМЕНУ ЦВЕТА НА NAV ТОЖЕ*/
+
+
 }
 
 function change3() {
