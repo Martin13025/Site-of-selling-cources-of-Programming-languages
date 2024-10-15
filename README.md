@@ -9,7 +9,7 @@ Used technologies:
 
 It's without some domain. You can open it through Chrome, VS Code server etc.
 Some updates will be soon.
-First version made at 1/6/2024.
+
 
 For about projects text me to my tg: https://t.me/LuciusNumerius.
 
