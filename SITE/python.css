@@ -8,10 +8,7 @@
 }
 * {
     font-family: 'Inter', 'Inter Bold Italic';
-    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
-    src: url(./fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
 }
-
 
 .container {
     background-image: url(./images/python-logo.webp);
@@ -37,8 +34,7 @@
 .head {
     width: 35%;
     color: #FFF;
-    font-family: Inter;
-    src: url(/fonts/Inter\ Extra\ Bold\ 800.otf);
+    font-family: 'Inter';
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
@@ -51,8 +47,6 @@
     border-radius: 150px;
     justify-content: center;
     border: 10px solid #FFF;
-    /*width: 250px;
-    height: 250px; */
     left: 85%;
     top: -254px;
     max-width: 35%;
@@ -68,13 +62,11 @@ p {
     background: #FFF;
     background-size: 30%;
     color: black;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 45px;
     border: 5px solid #000;
     line-height: normal;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     margin-top: -410px;
     left: 75%;
 }
