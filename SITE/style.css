@@ -7,7 +7,6 @@
     src: url('./fonts/Inter Extra Bold Italic 800.otf');
 }
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,7 +19,6 @@ body {
     padding: 1rem;
 }
 
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -30,7 +28,6 @@ body {
     justify-content: center;
     gap: 1.5rem;
 }
-
 
 .go, .js, .c, .py {
     flex: 1 1 200px;
@@ -60,23 +57,14 @@ body {
     background: #3D688C;
 }
 
-
 .child-image, .child-image2, .child-image3, .child-image4 {
     width: 200px;
     height: 200px;
     border-radius: 150px;
     border: 10px solid #000;
     object-fit: cover;
-}
-
-
-.child-image,
-.child-image2,
-.child-image3,
-.child-image4 {
     display: block;
 }
-
 
 h1 {
     width: 100%;
@@ -114,7 +102,6 @@ button, .learn {
     font-size: 1.2rem;
     line-height: 70px;
 }
-
 
 @media (max-width: 768px) {
     h1 {
