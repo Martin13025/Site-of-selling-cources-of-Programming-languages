@@ -1,87 +1,111 @@
 @font-face {
     font-family: 'Inter';
-    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
+    src: url('./fonts/Inter Extra Bold 800.otf');
 }
 @font-face {
     font-family: 'Inter Bold Italic';
-    src: url(/fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
-}
-* {
-    font-family: 'Inter', 'Inter Bold Italic';
-    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
-    src: url(./fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
+    src: url('./fonts/Inter Extra Bold Italic 800.otf');
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Inter Bold Italic', sans-serif;
+}
 
 .container {
-    background-image: url(./images/c\ sharp.webp.jpg);
+    background-image: url('./images/c sharp.webp.jpg');
     background-repeat: no-repeat;
-    object-fit: cover;
-    max-width: 100%;
-    height: auto; 
     background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
 }
+
 .wall {
-    background-color: rgba(84, 22, 164, 0.60);
-    max-width: 100%;
-    height: auto; 
-    background-size: cover;
+    background-color: rgba(84, 22, 164, 0.6);
+    width: 100%;
+    min-height: 100vh;
     border-radius: 20px;
 }
+
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    min-height: 100vh;
+    padding: 2rem;
+    text-align: center;
+    flex-direction: column;
 }
+
 .head {
-    width: 35%;
+    width: 90%;
     color: #FFF;
-    font-family: Inter;
-    src: url(/fonts/Inter\ Extra\ Bold\ 800.otf);
-    font-size: 50px;
-    font-style: normal;
+    font-size: 3rem;
     font-weight: 800;
-    line-height: normal;
-    margin-top: 10%;
-    margin-left: 10%;
+    line-height: 1.2;
+    margin-top: 2rem;
 }
+
 .c {
     position: relative;
     border-radius: 150px;
-    justify-content: center;
     border: 10px solid #FFF;
-    /*width: 250px;
-    height: 250px; */
-    left: 85%;
-    top: -180px;
-    max-width: 35%;
+    width: 35%;
+    max-width: 250px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 2rem auto;
+    top: -2rem;
 }
+
 p {
-    position: absolute;
-    max-width: 35%;
-    height: auto;
-    border-radius: 50px;
+    position: relative;
+    max-width: 90%;
     background: #FFF;
-    background-size: 30%;
     color: black;
-    font-family: Inter;
-    font-size: 45px;
+    font-size: 1.8rem;
     border: 5px solid #000;
-    line-height: normal;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: -350px;
-    left: 75%;
 }
+
 a {
-    font-size: 35px;
+    font-size: 1.5rem;
     width: 300px;
     height: 62px;
-    position: relative;
-    top: 20%;
+    display: inline-block;
+    margin-top: 2rem;
+    text-align: center;
+    line-height: 62px;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 30px;
+    background: white;
+    border: 2px solid black;
 }
+
+@media (max-width: 768px) {
+    .head {
+        font-size: 2rem;
+    }
+
+    .c {
+        width: 60%;
+    }
+
+    p {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    a {
+        font-size: 1.2rem;
+        width: 80%;
+    }
+}
+
