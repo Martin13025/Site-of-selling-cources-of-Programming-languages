@@ -1,65 +1,28 @@
-//console.log(document.body);
+document.body.style.backgroundColor = '#fff';
 
-document.body.style.backgroundColor = '#fff'
 function change() {
     const color = document.body.style.backgroundColor;
-    if (color === 'rgb(255, 255, 255)') {
-        document.body.style.backgroundColor = 'black'
-    } else {
-        document.body.style.backgroundColor = 'rgb(255, 255, 255)'
-    } 
+    document.body.style.backgroundColor = (color === 'rgb(255, 255, 255)') ? 'black' : 'rgb(255, 255, 255)';
 }
 
-
-function  change2() {
+function change2() {
     const color = document.body.style.backgroundColor;
-    if (color === 'black') {
-        document.getElementById('child-image1').style.borderColor = '#ffffff'
-    } else {
-        document.getElementById('child-image1').style.borderColor = 'black'
-    } if (color === 'black') {
-        document.getElementById('child-image2').style.borderColor = '#ffffff'
-    } else {
-        document.getElementById('child-image2').style.borderColor = 'black'
-    } if (color === 'black') {
-        document.getElementById('child-image3').style.borderColor = '#ffffff'
-    } else {
-        document.getElementById('child-image3').style.borderColor = 'black'
-    } if (color === 'black') {
-        document.getElementById('child-image4').style.borderColor = '#ffffff'
-    } else {
-        document.getElementById('child-image4').style.borderColor = 'black'
-    }
+    const borderColor = (color === 'black') ? '#ffffff' : 'black';
+    const imageIds = ['child-image1', 'child-image2', 'child-image3', 'child-image4'];
 
-
+    imageIds.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.style.borderColor = borderColor;
+    });
 }
 
 function change3() {
     const color = document.body.style.backgroundColor;
-    if (color === 'black') {
-        document.getElementById('go').style.borderColor = '#ffffff'
-    } else {
-        document.getElementById('go').style.borderColor = 'black'
-    } if (color === 'black') {
-        document.getElementById('js').style.borderColor = '#ffffff'
-    } else {
-        document.getElementById('js').style.borderColor = 'black'
-    } if (color === 'black') {
-        document.getElementById('c').style.borderColor = '#ffffff'
-    } else {
-        document.getElementById('c').style.borderColor = 'black'
-    } if (color === 'black') {
-        document.getElementById('py').style.borderColor = '#ffffff'
-    } else {
-        document.getElementById('py').style.borderColor = 'black'
-    }
+    const borderColor = (color === 'black') ? '#ffffff' : 'black';
+    const codeIds = ['go', 'js', 'c', 'py'];
+
+    codeIds.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.style.borderColor = borderColor;
+    });
 }
-
-
-
-
-
-
-
-
-
