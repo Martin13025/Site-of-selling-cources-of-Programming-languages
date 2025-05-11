@@ -1,87 +1,106 @@
 @font-face {
     font-family: 'Inter';
-    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
+    src: url('./fonts/Inter Extra Bold 800.otf');
 }
 @font-face {
     font-family: 'Inter Bold Italic';
-    src: url(/fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
-}
-* {
-    font-family: 'Inter', 'Inter Bold Italic';
-    src: url(./fonts/Inter\ Extra\ Bold\ 800.otf);
-    src: url(./fonts/Inter\ Extra\ Bold\ Italic\ 800.otf);
+    src: url('./fonts/Inter Extra Bold Italic 800.otf');
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Inter Bold Italic', sans-serif;
+}
 
 .container {
-    background-image: url(./images/js_evolution_b3333c24cb.jpeg);
+    background-image: url('./images/js_evolution_b3333c24cb.jpeg');
     background-repeat: no-repeat;
-    object-fit: cover;
-    max-width: 100%;
-    height: auto; 
     background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
 }
+
 .wall {
     background-color: rgba(255, 238, 0, 0.356);
-    max-width: 100%;
-    height: auto; 
-    background-size: cover;
+    width: 100%;
     border-radius: 20px;
 }
+
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: 100vh;
 }
+
 .head {
-    width: 35%;
+    width: 100%;
+    max-width: 700px;
     color: #FFF;
-    font-family: Inter;
-    src: url(/fonts/Inter\ Extra\ Bold\ 800.otf);
     font-size: 50px;
-    font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin: 5% auto 0 auto;
+    padding: 0 2rem;
+    text-align: center;
 }
+
 .js {
-    position: relative;
     border-radius: 150px;
-    justify-content: center;
     border: 10px solid #FFF;
-    /*width: 250px;
-    height: 250px; */
-    left: 85%;
-    top: -180px;
-    max-width: 35%;
+    max-width: 250px;
+    width: 35%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
+
 p {
-    position: absolute;
-    max-width: 35%;
-    height: auto;
+    max-width: 600px;
+    width: 90%;
+    margin: -3rem auto 0 auto;
+    padding: 1.5rem;
     border-radius: 50px;
     background: #FFF;
-    background-size: 30%;
     color: black;
-    font-family: Inter;
-    font-size: 45px;
+    font-size: 2rem;
     border: 5px solid #000;
-    line-height: normal;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: -350px;
-    left: 75%;
 }
+
 a {
-    font-size: 35px;
+    display: inline-block;
+    font-size: 1.5rem;
     width: 300px;
     height: 62px;
-    position: relative;
-    top: 20%;
+    margin: 2rem auto;
+    text-align: center;
+    line-height: 62px;
+    color: inherit;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .head {
+        font-size: 2rem;
+        margin-top: 10%;
+    }
+
+    .js {
+        width: 60%;
+        max-width: 200px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    a {
+        font-size: 1.2rem;
+        width: 80%;
+    }
 }
